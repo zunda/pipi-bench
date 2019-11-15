@@ -38,14 +38,16 @@ $ git push heroku master
 
 ### Measure
 ```sh
-$ heroku run ./bin/pipipi.sh 16 | tee measure.dat
+$ heroku run ./bin/pipipi.sh 16 2>&1 | tee measure.dat
+$ sed -i 's/^Running/# Running/' measure.dat
 ```
 
-To test different dyno types, the app needs to use professional dynos.
+To test different dyno sizes, the app needs to use professional dynos:
 
 ```sh
 $ heroku ps:type worker=standard-1x
-$ heroku run --size=standard-2x ./bin/pipipi.sh 16 | tee standard-2x.dat
+$ heroku run --size=standard-2x ./bin/pipipi.sh 16 2>&1 | tee standard-2x.dat
+$ sed -i 's/^Running/# Running/' standard-2x.dat
 ```
 
 ## License
