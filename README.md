@@ -38,7 +38,7 @@ $ git push heroku master
 
 ### Measure
 ```sh
-$ heroku --size=standard-1x run ./bin/pipipi.sh 16 | tee measure.dat
+$ heroku run ./bin/pipipi.sh 16 | tee measure.dat
 ```
 
 ## License
