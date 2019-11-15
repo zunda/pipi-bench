@@ -1,5 +1,5 @@
 #!/bin/sh
-maxproc=16
+maxproc=$1
 
 bindir=`dirname $0`
 $bindir/pipi.sh 1
