@@ -20,7 +20,7 @@ $ gnuplot
 reset
 set xlabel "Numbe of parallel processes"
 set ylabel "Elapsed time for same amount of work (sec)"
-set style data lines
+set style data linespoints
 set xrange [0:*]
 set yrange [0:*]
 plot "measure.dat"
