@@ -47,7 +47,7 @@ To test different dyno sizes, the app needs to use professional dynos:
 ```sh
 $ heroku ps:type worker=standard-1x
 $ heroku run --size=standard-2x ./bin/pipipi.sh 16 2>&1 | tee standard-2x.dat
-$ sed -i 's/^Running/# Running/' standard-2x.dat
+$ sed -i 's/^\([^0-9#]\)/#\1/' standard-2x.dat
 ```
 
 ## License
