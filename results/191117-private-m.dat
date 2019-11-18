@@ -1,0 +1,23 @@
+# Running ./bin/pipipi.sh 16 on pipi-bench-oregon... !
+# ▸    Warning: Dynos can take up to a few minutes to be provisioned in Private
+# ▸    Spaces.
+# Running ./bin/pipipi.sh 16 on pipi-bench-oregon... starting, run.1038 (Private-M)
+# Running ./bin/pipipi.sh 16 on pipi-bench-oregon... connecting, run.1038 (Private-M)
+# Running ./bin/pipipi.sh 16 on pipi-bench-oregon... up, run.1038 (Private-M)
+#nproc wall-sec swap-out
+1 2.31 0
+2 3.75 0
+3 5.61 0
+4 7.48 0
+5 9.35 0
+6 11.24 0
+7 13.31 0
+8 14.99 0
+9 16.90 0
+10 18.82 0
+11 20.78 0
+12 22.61 0
+13 24.54 0
+14 26.37 0
+15 28.37 0
+16 30.13 0

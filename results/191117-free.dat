@@ -1,0 +1,20 @@
+# Running ./bin/pipipi.sh 16 on pipi-bench-us... starting, run.8540 (Free)
+# Running ./bin/pipipi.sh 16 on pipi-bench-us... connecting, run.8540 (Free)
+# Running ./bin/pipipi.sh 16 on pipi-bench-us... up, run.8540 (Free)
+#nproc wall-sec swap-out
+1 6.93 0
+2 10.21 0
+3 12.51 0
+4 16.21 0
+5 19.45 0
+6 21.15 0
+7 24.00 0
+8 24.41 0
+9 30.73 0
+10 28.75 0
+11 35.71 0
+12 35.97 0
+13 43.19 0
+14 53.28 0
+15 74.15 0
+16 39.86 0
