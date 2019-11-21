@@ -1,5 +1,5 @@
 set xlabel "Parallel processes"
-set ylabel "Elapsed time same amount of work (sec)"
+set ylabel "Elapsed time for same sequence of task (sec)"
 set style data linespoints
 set key top left
 set xrange [0:*]
